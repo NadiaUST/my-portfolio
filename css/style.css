@@ -230,7 +230,7 @@ body {
 /* feedback */
 .feedback {
   position: relative;
-  padding: 80px 0 160px;
+  padding: 80px 0 100px;
 }
 .feedback-hand {
   position: absolute;
@@ -261,6 +261,8 @@ body {
   border-radius: 4px;
   width: 100%;
   height: 56px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .textarea {
   resize: none;
@@ -288,6 +290,14 @@ body {
   display: flex;
   justify-content: flex-end;
 }
+.footer {
+  padding: 30px 0;
+}
+.footer-title {
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+}
 
 /* adaptive */
 @media (max-width: 1024px) {
@@ -296,6 +306,9 @@ body {
   }
   .card {
     max-width: 350px;
+  }
+  .feedback {
+    padding-bottom: 40px;
   }
 }
 
@@ -373,5 +386,8 @@ body {
   .nav-link {
     margin-left: 0;
     margin-bottom: 10px;
+  }
+  .form-container {
+    max-width: 335px;
   }
 }

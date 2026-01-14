@@ -267,6 +267,7 @@ body {
 .textarea {
   resize: none;
   min-height: 140px;
+  padding-top: 20px;
 }
 .form-container {
   max-width: 435px;
